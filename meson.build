@@ -234,7 +234,6 @@ if host_platform == 'emscripten'
 		'-s', 'USE_LIBPNG',
 		'-s', 'USE_PTHREADS=0',
 		'-s', 'DISABLE_EXCEPTION_CATCHING=0',
-		'-s', 'SINGLE_FILE=1',
 		'-gsource-map',
 	]
 	project_link_args += emcc_args
